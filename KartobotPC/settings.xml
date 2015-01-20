@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<kartobot>
+<settings>
+<loglvl type="s">INFO</loglvl>
+<xbeePort type="s">COM5</xbeePort>
+<xbeeAutoConnect type="b">false</xbeeAutoConnect>
+<xbeeLogRSSI type="b">false</xbeeLogRSSI>
+<looknfeel type="b">false</looknfeel>
+<xbeeBaud type="i">111111</xbeeBaud>
+<remoteAddress64 type="s">00 13 A2 00 40 5C 2C C9</remoteAddress64>
+<logSensors type="b">false</logSensors>
+<SoundVolume type="f">0.7</SoundVolume>
+<GUI.ShowFPS type="b">true</GUI.ShowFPS>
+<GUI.AlwaysRender type="b">true</GUI.AlwaysRender>
+<GUI.Fullscreen type="b">true</GUI.Fullscreen>
+<GUI.VSync type="b">true</GUI.VSync>
+<MusicVolume type="f">0.5</MusicVolume>
+<GUI.FrameLimit type="i">60</GUI.FrameLimit>
+<GUI.Width type="i">1366</GUI.Width>
+<GUI.Height type="i">768</GUI.Height>
+<xbeeFlowControl type="b">true</xbeeFlowControl>
+<serialPort type="s">COM12</serialPort>
+<serialBaud type="i">9600</serialBaud>
+<serialFlowControl type="b">false</serialFlowControl>
+</settings>
+<binds>
+<bind>
+<controllerType type="s">Keyboard</controllerType>
+<component type="s">F5</component>
+<prefix type="s">mm 0 0 0 0 mm 1 0 0 0</prefix>
+<name type="s">Stop</name>
+<in_min type="f">0.0</in_min>
+<in_max type="f">1.0</in_max>
+<trim type="i">0</trim>
+<out_min type="i">0</out_min>
+<out_max type="i">1</out_max>
+<isBoolean type="b">true</isBoolean>
+</bind>
+<bind>
+<controllerType type="s">Keyboard</controllerType>
+<component type="s">F1</component>
+<prefix type="s">mm 0 0 5 0 mm 1 0 5 0</prefix>
+<name type="s">Forward</name>
+<in_min type="f">0.0</in_min>
+<in_max type="f">1.0</in_max>
+<trim type="i">0</trim>
+<out_min type="i">0</out_min>
+<out_max type="i">1</out_max>
+<isBoolean type="b">true</isBoolean>
+</bind>
+<bind>
+<controllerType type="s">Keyboard</controllerType>
+<component type="s">F2</component>
+<prefix type="s">mm 0 1 5 0 mm 1 1 5 0</prefix>
+<name type="s">Backwards</name>
+<in_min type="f">0.0</in_min>
+<in_max type="f">1.0</in_max>
+<trim type="i">0</trim>
+<out_min type="i">0</out_min>
+<out_max type="i">1</out_max>
+<isBoolean type="b">true</isBoolean>
+</bind>
+<bind>
+<controllerType type="s">Keyboard</controllerType>
+<component type="s">F3</component>
+<prefix type="s">mm 0 1 5 0 mm 1 0 5 0</prefix>
+<name type="s">Left</name>
+<in_min type="f">0.0</in_min>
+<in_max type="f">1.0</in_max>
+<trim type="i">0</trim>
+<out_min type="i">0</out_min>
+<out_max type="i">1</out_max>
+<isBoolean type="b">true</isBoolean>
+</bind>
+<bind>
+<controllerType type="s">Keyboard</controllerType>
+<component type="s">F4</component>
+<prefix type="s">mm 0 0 5 0 mm 1 1 5 0</prefix>
+<name type="s">Right</name>
+<in_min type="f">0.0</in_min>
+<in_max type="f">1.0</in_max>
+<trim type="i">0</trim>
+<out_min type="i">0</out_min>
+<out_max type="i">1</out_max>
+<isBoolean type="b">true</isBoolean>
+</bind>
+</binds>
+</kartobot>

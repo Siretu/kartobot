@@ -1,0 +1,35 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0005 // Tools: ''
+GRPOPT 1,(Source Group 1),0,0,0
+
+
+
+TARGOPT 1, (Target 1)
+ KACLK=50000000
+  OPTTT 1,1,1,0
+  OPTHX 0,65535,0,0,0
+  OPTLX 120,65,8,<.\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 0,0,1
+  OPTBL 0,(Data Sheet)<DATASHTS\Luminary\LM3S811.PDF>
+  OPTDL (SARMCM3.DLL)()(DLM.DLL)(-pLM3S811)(SARMCM3.DLL)()(TLM.DLL)(-pLM3S811)
+  OPTDBG 48126,3,()()()()()()()()()() (BIN\lmidk-agdi.dll)()()()
+  OPTKEY 0,(UL2CM3)(-UU0101L5E -O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0LM3S_64 -FS00 -FL010000)
+  OPTDF 0x2
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

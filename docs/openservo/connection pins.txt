@@ -1,0 +1,12 @@
+2011-09-03
+
+	   /-Brown-- N/C --- .. 9
+______    /--Red---- SCL --- ..	4	
+      |  /---Orange- GND --- .. 8        0 1 2 3 4  
+Open  -------Yellow- Vbat -- .. 3       ____---____ 
+Servo -------Green-- SDA --- .. 7      | O O O O O |
+      -------Blue--- MOSI -- .. 2      | O O O O O |
+______| \----Purple- MISO -- .. 6      `-----------´
+	 \---Grey--- RESET - .. 1        5 6 7 8 9  
+	  \--White-- +5V --- .. 5
+	   \-Black-- N/C --- .. 0

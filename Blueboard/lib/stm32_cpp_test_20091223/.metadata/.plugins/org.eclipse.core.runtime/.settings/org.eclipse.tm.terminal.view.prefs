@@ -1,0 +1,10 @@
+#Sat Aug 29 13:12:55 CEST 2009
+Connectors.ConnectionType=org.eclipse.tm.internal.terminal.serial.SerialConnector
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.SerialPort=COM2
+TerminalPrefInvertColors=true
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.StopBits=1
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.Parity=None
+eclipse.preferences.version=1
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.BaudRate=115200
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.DataBits=8
+Connectors.org.eclipse.tm.internal.terminal.serial.SerialConnector.FlowControl=None

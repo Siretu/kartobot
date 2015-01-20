@@ -1,0 +1,93 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Target 1), 0x0005 // Tools: ''
+
+Group (Source Group 1)
+
+
+
+Options 1,0,0  // Target 'Target 1'
+ Device (LM3S811)
+ Vendor (Luminary Micro)
+ Cpu (IRAM(0x20000000-0x20001FFF) IROM(0-0xFFFF) CLOCK(50000000) CPUTYPE("Cortex-M3"))
+ FlashUt ()
+ StupF ("STARTUP\Luminary\Startup.s" ("Luminary Startup Code"))
+ FlashDR (UL2CM3(-UU0101L5E -O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0LM3S_64 -FS00 -FL010000))
+ DevID (4146)
+ Rgf (LM3Sxxx.H)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS ()
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin (C:\Keil\ARM\BIN\)
+ EnvInc ()
+ EnvLib ()
+ EnvReg ()
+ OrgReg (ÿLuminary\)
+ TgStat=0
+ OutDir (.\)
+ OutName (main.hex)
+ GenApp=1
+ GenLib=0
+ GenHex=0
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ HexSel=0
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ SVCSID <>
+ KACPU (Cortex-M3)
+ TKAFL { 128,240,250,2,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ KIROM { 1,0,0,0,0,0,0,1,0 }
+ KIRAM { 0,0,0,0,32,0,32,0,0 }
+ KXRAM { 0,0,0,0,0,0,0,0,0 }
+ KAOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ KCAFLG { 197,152,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ KCAMSC ()
+ KCADEF ()
+ KCAUDF ()
+ KCAINC ()
+ KAAFLG { 20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ KAAMSC ()
+ KAASET ()
+ KAARST ()
+ KAAINC ()
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ KLAFLG { 44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ KLAMSC ()
+ KLADWN ()
+ KLACFI ()
+ KLAASN ()
+ KLARES ()
+ KLACCL ()
+ KLAUCL ()
+ KLACSC ()
+ KLAUCS ()
+  OPTDL (SARMCM3.DLL)()(DLM.DLL)(-pLM3S811)(SARMCM3.DLL)()(TLM.DLL)(-pLM3S811)
+  OPTDBG 48126,3,()()()()()()()()()() (BIN\lmidk-agdi.dll)()()()
+ FLASH1 { 1,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0 }
+ FLASH2 (BIN\lmidk-agdi.dll)
+ FLASH3 ("" ())
+ FLASH4 ()
+EndOpt
+

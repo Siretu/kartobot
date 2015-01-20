@@ -1,0 +1,46 @@
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%PRVDR%
+LayoutFile=layout.inf
+DriverVer=22/03/2010,2.0.2200.2
+
+[Manufacturer]
+%MFGNAME%=VirComDevice,NT,NTamd64
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[VirComDevice.NT]
+%DESCRIPTION%=DriverInstall,USB\VID_1FC9&PID_2002
+
+[VirComDevice.NTamd64]
+%DESCRIPTION%=DriverInstall,USB\VID_1FC9&PID_2002
+
+[DriverInstall.NT]
+Include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+AddReg=DriverInstall.NT.AddReg
+
+[DriverInstall.NT.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DriverInstall.NT.Services]
+AddService=usbser, 0x00000002, DriverServiceInst
+
+[DriverServiceInst]
+DisplayName=%SERVICE%
+ServiceType = 1 ; SERVICE_KERNEL_DRIVER
+StartType = 3 ; SERVICE_DEMAND_START
+ErrorControl = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary= %12%\usbser.sys
+LoadOrderGroup = Base
+
+[Strings]
+PRVDR       = "ProviderNAME"
+MFGNAME     = "ManfNAME"
+DESCRIPTION = "KartoBot USB Serial Port"
+SERVICE     = "KartoBot"

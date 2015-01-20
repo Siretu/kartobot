@@ -1,0 +1,256 @@
+at 1.0
+	call		nextcred
+	[
+		black		224
+		text4		32
+	]
+
+at 5.0
+	call		inittitle
+	palette		0x00, 0x15, 0x2a, 0x3f
+	mainloop	titlescreen
+	[
+		stars2d		40
+		bars		64
+		black		24
+		2bit48		112
+		black		24
+		check		64
+		black		8
+		text4		32
+		black		8
+		bars		64
+		stars2d		40
+	]
+
+at 8.0
+	vblank		vbl_scroll
+
+at 12.22
+	call		enableflower1
+
+at 12.24
+	call		enableflower2
+
+at 12.26
+	call		enableflower3
+
+at 13.0
+	call		enablecolour
+	palette		0x00, 0x11, 0x22, 0x3f
+
+at 21.0
+	vblank		delay7
+	mainloop	plasma
+	palette		0x01, 0x00, 0x03, 0x02
+	[
+		stars2d		111
+		white		1
+		2bit		256
+		white		1
+		stars2d		111
+	]
+	call		disableflower3
+
+at 29.0
+	call		initfire
+	mainloop	fire
+	palette		0x00, 0x20, 0x34, 0x3e
+	[
+		black		90
+		2bit		248
+		midgrey		1
+		black		2
+		midgrey		2
+		black		16
+		2bitref		32
+		black		89
+	]
+
+at 36.16
+	mainloop	delay7
+	call		starfield
+	#palette		0x3f, 0x17, 0x27, 0x12
+	#palette		0x3f, 0x27, 0x23, 0x12
+	palette		0x3d, 0x3c, 0x39, 0x24
+	[
+		dots		256
+		dots		256
+	]
+
+at 36.22
+	call		blankon
+
+at 36.24
+	call		starfield
+	call		blankoff
+
+at 36.30
+	call		blankon
+	mainloop	starfield
+
+at 37.0
+	call		blankoff
+
+at 44.12
+	call		blankon
+
+at 44.16
+	call		nextcred
+	[
+		black		1
+		black		169
+		text4		32
+	]
+	call		blankoff
+
+at 44.18
+	call		nextcred
+
+at 44.24
+	call		nextcred
+
+at 44.26
+	call		nextcred
+
+at 45.0
+	[
+	]
+	call		tunnel
+	mainloop	tunnel
+	palette		0x00, 0x00, 0x23, 0x11
+	[
+		black		78
+		midpurple	2
+		black		10
+		midpurple	6
+		black		16
+		dblbuf		256
+		black		16
+		midpurple	6
+		black		10
+		midpurple	2
+	]
+
+at 52.30
+	call		blankon
+	call		tunnelcut
+
+at 53.0
+	palette		0x00, 0x00, 0x3f, 0x15
+	call		blankoff
+
+at 59.30
+	call		blankon
+	call		tunnelcut
+
+at 60.0
+	mainloop	delay7
+	call		blankoff
+
+at 60.4
+	call		blankon
+	call		tunnelcut
+
+at 60.8
+	call		blankoff
+
+at 60.12
+	call		blankon
+	call		tunnelcut
+
+at 60.16
+	call		blankoff
+
+at 60.20
+	call		blankon
+	call		tunnelcut
+
+at 60.24
+	call		blankoff
+
+at 60.28
+	call		blankon
+	call		tunnelcut
+
+at 61.0
+	call		initcolumn
+	vblank		vbl_column
+	[
+		column		256
+		column		256
+		column		191
+		white		1
+		fill		16
+		text4		64
+		fill		16
+		white		1
+		column		191
+	]
+
+at 64.8
+	vblank		vbl_column_r
+
+at 66.16
+	call		initgreetings
+
+at 75.8
+	call		preparevu
+	vblank		animvudown
+#	[
+#		vu		1
+#		vu		1
+#		column		191
+#		white		1
+#		fill		16
+#		text4		64
+#		fill		16
+#		white		1
+#		column		191
+#	]
+
+at 83.24
+	vblank		animvuright
+
+at 84.0
+	mainloop	dotcube
+	palette		0x3f, 0x2f, 0x1a, 0x05
+	[
+		vu		112
+		dotsvu		256
+		vu		112
+	]
+
+at 92.0
+	mainloop	julia
+	palette		0x00, 0x10, 0x20, 0x30
+	[
+		vu		112
+		julia1		128
+		julia2		128
+		vu		112
+	]
+
+at 98.28
+	[
+	]
+
+at 99.0
+	call		nextcred
+	[
+		black		224
+		text4		32
+	]
+
+at 99.12
+	[
+		black		224
+		text4		32
+		black		5
+		flower		32
+	]
+
+at 100.20
+	[
+	]
+	call		infloop

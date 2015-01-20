@@ -1,0 +1,14 @@
+Go to the tools directory and type "make". The only tools you really need from
+this directory are "space" and "mkstory", so don't worry if the other tools
+won't build for some reason.
+
+Next, go to the craft directory and type "make". This should create flash.hex
+and eeprom.raw. Verify that they are identical to what you've got in the
+../firmware directory.
+
+The music data (song.S, songee.S) was obviously generated with a tool, a
+custom tracker, but I won't release the source code for the tracker (yet)
+because it depends on a library I'm working on, and the library is not fully
+functional yet.
+
+Linus

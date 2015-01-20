@@ -1,0 +1,14 @@
+History of updates to CMSISv2p00_LPC18xx
+========================================
+
+1 February 2011
+---------------
+2nd beta - updated LPC18 related files from NXP.
+
+13 December 2010
+----------------
+Beta LPC18xx CMSIS library project, using ARM Cortex-M3
+CMSIS files as supplied in ARM's CMSIS 2.0 December 2010
+release, together with device/board specific files from NXP.
+
+Note files are build -Os for both Debug and Release

@@ -1,0 +1,55 @@
+# Broken
+% Shipped
+
+Bought:
+1 XBee Pro 50mW Series 2.5 Wire Antenna http://www.sparkfun.com/products/8876
+#1 9 Degrees of Freedom - Sensor Stick http://www.sparkfun.com/products/10724
+1 Rover 5 Robot Platform http://www.sparkfun.com/products/10336
+4 Motor Driver 1A Dual TB6612FNG http://www.sparkfun.com/products/9457
+2 Ultrasonic Range Finder - XL-Maxsonar EZ3 http://www.sparkfun.com/products/9494
+#1 Ultrasonic Range Finder - XL-Maxsonar EZ3 http://www.sparkfun.com/products/9494
+1 Blueboard LPC1768-H http://www.sparkfun.com/products/9931
+2 Logic Level Converter http://www.sparkfun.com/products/8745
+#1 OpenServo V2 http://www.sparkfun.com/products/9014
+1 Breakout Board for SD-MMC Cards http://www.sparkfun.com/products/204
+1 ProtoBoard - Rectangle 3" http://www.sparkfun.com/products/8815
+2 MKS2 150 nF 63V 5mm http://www.electrokit.com/mks2-150-nf-63v-5mm.43444
+2 Säkring 5x20mm trög 10A http://www.electrokit.com/sakring-5x20mm-trog-10a.45130
+1 Säkringshållare 5x20 mm PCB http://www.electrokit.com/sakringshallare-5x20-mm-pcb.42759
+1 Pot 10kohm lin PCB (B10K) http://www.electrokit.com/pot-10kohm-lin-pcb-b10k.41850
+1 Solenoid http://www.electrokit.com/solenoid.48173
+2 Motståndsnät 4R 8-pin 220R http://www.electrokit.com/motstandsnat-4r-8pin-220r.44583
+1 PN2222A TO-92 NPN 40V 800mA 300MHz http://www.electrokit.com/pn2222a-to92-npn-40v-800ma-300mhz.42274
+2 Säkring 5x20mm trög 6.3A http://www.electrokit.com/sakring-5x20mm-trog-6-3a.45129
+
+
+ToBuy:
+
+Upgrades:
+http://www.rctankcombat.com/articles/track-systems/
+http://www.instructables.com/id/How-to-make-custom-and-strong-tank-tracks-for-very/step4/Keep-tightening-and-oh-youre-done/
+http://www.superdroidrobots.com/shop/item.aspx?itemid=789
+http://www.youtube.com/watch?v=l_S1TlKuiz0&feature=player_detailpage#t=23s
+
+
+Useful:
+http://wiki.osdev.org/C%2B%2B_Bare_Bones
+http://forums.digi.com/support/forum/printthread_thread,7255
+http://t413.com/websvn/listing.php?repname=os_copter&path=%2F&
+http://www.coranac.com/tonc/text/asm.htm
+
+Music:
+http://www.youtube.com/watch?v=GtQdIYUtAHg&feature=related
+http://www.youtube.com/watch?v=qlrs2Vorw2Y
+http://www.youtube.com/watch?v=tCRPUv8V22o
+https://datatype.helixcommunity.org/Mp3dec.html
+http://www.linusakesson.net/hardware/index.php
+
+Libs:
+XBee http://code.google.com/p/xbee-arduino/
+Java: http://code.google.com/p/xbee-api/
+AHRS https://dev.qu.tu-berlin.de/projects/sf-razor-9dof-ahrs/files
+RXTX replacement? http://www.sparetimelabs.com/purejavacomm/index.html
+
+solenoid 7.2V 17.6 Ohm 0.4A, uses protection diode 
+Transistor base resistor 100 Ohm

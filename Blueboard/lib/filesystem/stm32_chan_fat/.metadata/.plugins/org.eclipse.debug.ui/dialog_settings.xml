@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.debug.ui.SINGLE_LAUNCH_CONFIGURATION_DIALOG_SECTION">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="57" key="DIALOG_Y_ORIGIN"/>
+		<item value="640" key="DIALOG_HEIGHT"/>
+		<item value="339" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SELECT_FAVORITESS_DIALOG">
+		<item value="350" key="DIALOG_WIDTH"/>
+		<item value="-33" key="DIALOG_Y_ORIGIN"/>
+		<item value="350" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.sourcelookup.SourceLookupDialog">
+		<item value="438" key="DIALOG_WIDTH"/>
+		<item value="226" key="DIALOG_Y_ORIGIN"/>
+		<item value="386" key="DIALOG_HEIGHT"/>
+		<item value="520" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.STRING_VARIABLE_SELECTION_DIALOG_SECTION">
+		<item value="326" key="DIALOG_WIDTH"/>
+		<item value="-37" key="DIALOG_Y_ORIGIN"/>
+		<item value="536" key="DIALOG_HEIGHT"/>
+		<item value="237" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATION_PROPERTIES_DIALOG_SECTION">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="-142" key="DIALOG_Y_ORIGIN"/>
+		<item value="-76" key="DIALOG_X_ORIGIN"/>
+		<item value="640" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
+		<item value="863" key="DIALOG_WIDTH"/>
+		<item value="57" key="DIALOG_Y_ORIGIN"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag.launchConfigurationType, org.eclipse.ui.externaltools.ProgramLaunchConfigurationType, " key="org.eclipse.debug.ui.EXPANDED_NODES"/>
+		<item value="339" key="DIALOG_X_ORIGIN"/>
+		<item value="640" key="DIALOG_HEIGHT"/>
+		<item value="237" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1"/>
+		<item value="762" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ExportLaunchConfigurations">
+		<item value="C:/WinARM/examples/stm32_chanfat_ws/project" key="import_config_oldpath"/>
+		<item value="false" key="overwrite"/>
+		<item value="false" key="import_config_overwrite"/>
+		<item value="C:/WinARM/examples/at91sam_chanfat_ws/project" key="oldpath"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SHARED_LAUNCH_CONFIGURATON_DIALOG">
+		<item value="350" key="DIALOG_WIDTH"/>
+		<item value="-2" key="DIALOG_Y_ORIGIN"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="256" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.SELECT_CONFIGURATION_TYPE_DIALOG">
+		<item value="350" key="DIALOG_WIDTH"/>
+		<item value="46" key="DIALOG_Y_ORIGIN"/>
+		<item value="149" key="DIALOG_X_ORIGIN"/>
+		<item value="350" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATION_EDIT_DIALOG_SECTION">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="57" key="DIALOG_Y_ORIGIN"/>
+		<item value="640" key="DIALOG_HEIGHT"/>
+		<item value="339" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="FAVORITES_DIALOG_SECTION">
+		<item value="350" key="DIALOG_WIDTH"/>
+		<item value="217" key="DIALOG_Y_ORIGIN"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
+		<item value="564" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

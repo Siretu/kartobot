@@ -1,0 +1,580 @@
+%!PS-Adobe-2.0 EPSF-3.0
+%%BoundingBox: 72 5 482 364
+
+
+/skipx 13 def
+/skipy 11 def
+/width 51 def
+/height 33 def
+/stuff {
+	25 17 4 14 dil_up
+	0 1 13 { /i rdef 26 17 i add cut } for
+
+	24 21 23 cap
+	23 22 23 cap
+	22 21 2 sil
+
+	18 21 24 hres
+	19 21 24 hres
+	20 21 24 hres
+	23 18 cut
+	23 19 cut
+	23 20 cut
+
+	25 21 24 hres
+	27 21 24 hres
+	28 21 24 hres
+	23 25 cut
+	23 27 cut
+	23 28 cut
+
+	19 11 18 mpcap
+	20 18 19 vres
+	19 19 20 vres
+	20 20 25 vres
+	19 25 28 vres
+	20 27 28 vres
+	18 23 27 vres
+
+	25 29 32 hres
+	26 29 32 hres
+	27 29 32 hres
+	28 29 32 hres
+	29 29 32 hres
+	30 29 32 hres
+	29 25 cut
+	29 26 cut
+	29 27 cut
+	29 28 cut
+	29 29 cut
+	29 30 cut
+
+	33 25 26 vres
+	33 27 28 vres
+	33 29 30 vres
+
+	34 32 25 vres
+	35 32 27 vres
+	36 32 29 vres
+
+	40 24 32 line
+	17 23 32 line
+
+	41 26 dot
+	41 28 dot
+	41 30 dot
+	41 17 dot
+	41 18 dot
+	41 24 dot
+
+	35 23 26 diode
+	36 23 28 diode
+	37 23 30 diode
+
+	34 21 3 sil
+	33 19 22 vres
+	35 19 trimpot3
+
+	31 23 cut
+	31 22 cut
+	31 21 cut
+	31 20 cut
+	33 19 cut
+
+	16 26 31 line
+	38 20 31 line
+
+	19 23 24 mpcap
+	16 22 3 sil
+	17 22 cut
+	13 19 dot
+	13 23 dot
+	17 19 22 diode
+	17 19 cut
+
+	45 13 dot
+	45 15 dot
+	45 17 dot
+	49 15 dot
+	47 15 cut
+	42 17 cut
+	40 11 15 line
+	39 15 cut
+	44.5 12.5 49.5 17.5 box
+
+	34 13 3 sil
+	33 13 3 sil
+	32.2 15 (MISO) rtext
+	32.2 14 (SCK) rtext
+	32.2 13 (RST) rtext
+	34.5 15 (5V) text
+	34.5 14 (MOSI) text
+	34.5 13 (Gnd) text
+	33 13 cut
+	33 14 cut
+	33 15 cut
+
+	29 14 21 line
+	30 15 20 line
+	15 13 30 line
+	14 12 24 line
+	39 13 24 line
+	37 12 15 line
+	38 14 16 line
+	31 16 19 line
+
+	42.5 18.5 49.5 31.5 box
+
+	25.3 11 (lft 2008) text
+} def
+
+
+
+
+/rdef { exch def } bind def
+72 0 translate
+7.20 7.20 scale
+/Helvetica findfont 0.7 scalefont setfont
+
+/rows height array def
+0 1 height 1 sub {
+	/a width array def
+	rows exch a put
+	0 1 width 1 sub {
+		a exch false put
+	} for
+} for
+/cutright height array def
+0 1 height 1 sub {
+	/a width array def
+	cutright exch a put
+	0 1 width 1 sub {
+		a exch false put
+	} for
+} for
+
+skipx 1 width 1 sub {
+	/x rdef
+	skipy 1 height 1 sub {
+		/y rdef
+		newpath x y 0.02 0 360 arc fill
+	} for
+} for
+
+/bwidth 0.6 def
+/bheight 0.7 def
+0.02 setlinewidth newpath
+	skipx bwidth sub skipy bheight sub moveto
+	width 1 sub bwidth add skipy bheight sub lineto
+	width 1 sub bwidth add height 1 sub bheight add lineto
+	skipx bwidth sub height 1 sub bheight add lineto
+	skipx bwidth sub skipy bheight sub lineto
+stroke
+
+/dot {
+	10 dict begin
+		/y rdef
+		/x rdef
+		rows y get x true put
+	end
+} bind def
+
+/cut {
+	10 dict begin
+		/y rdef
+		/x rdef
+		cutright y get x true put
+	end
+} bind def
+
+/line {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 dot
+		x y2 dot
+		0.05 setlinewidth newpath
+			x y1 moveto
+			x y2 lineto
+		stroke
+	end
+} bind def
+
+/box {
+	10 dict begin
+		/y2 rdef
+		/x2 rdef
+		/y1 rdef
+		/x1 rdef
+		0.05 setlinewidth newpath
+			x1 y1 moveto
+			x2 y1 lineto
+			x2 y2 lineto
+			x1 y2 lineto
+			x1 y1 lineto
+		stroke
+	end
+} bind def
+
+/vres {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 y2 line
+		/mid y1 y2 add 2 div def
+		y1 1 add y2 eq {
+			/hsize 0.15 def
+			/vsize 0.30 def
+		} {
+			/hsize 0.25 def
+			/vsize 0.65 def
+		} ifelse
+		1 setgray
+		newpath
+			x hsize sub mid vsize sub moveto
+			x hsize sub mid vsize add lineto
+			x hsize add mid vsize add lineto
+			x hsize add mid vsize sub lineto
+		fill
+		0 setgray
+		x hsize sub mid vsize sub x hsize add mid vsize add box
+	end
+} bind def
+
+/hres {
+	10 dict begin
+		/x2 rdef
+		/x1 rdef
+		/y rdef
+		x1 y dot
+		x2 y dot
+		0.05 setlinewidth newpath
+			x1 y moveto
+			x2 y lineto
+		stroke
+		/mid x1 x2 add 2 div def
+		/vsize 0.25 def
+		/hsize 0.65 def
+		1 setgray
+		newpath
+			mid hsize sub y vsize sub moveto
+			mid hsize sub y vsize add lineto
+			mid hsize add y vsize add lineto
+			mid hsize add y vsize sub lineto
+		fill
+		0 setgray
+		mid hsize sub y vsize sub mid hsize add y vsize add box
+	end
+} bind def
+
+/vrestext {
+	10 dict begin
+		/txt rdef
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		/mid y1 y2 add 2 div def
+		y1 1 add y2 eq {
+			/hsize 0.15 def
+			/vsize 0.30 def
+		} {
+			/hsize 0.25 def
+			/vsize 0.65 def
+			gsave
+				x hsize sub mid translate
+				270 rotate
+				0.65 0.65 scale
+				txt stringwidth pop 2 div neg 0.13 moveto txt show
+			grestore
+		} ifelse
+	end
+} bind def
+
+/mpcap {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 dot
+		x y2 dot
+		/mid y1 y2 add 2 div def
+		/hsize1 0.25 def
+		/hsize2 0.45 def
+		/vsize 0.10 def
+		newpath
+			x y1 moveto x mid vsize sub lineto
+			x y2 moveto x mid vsize add lineto
+
+			x hsize1 sub mid vsize add moveto
+			x hsize1 add mid vsize add lineto
+
+			x hsize2 sub mid vsize add moveto
+			x hsize2 sub mid vsize sub
+			x hsize2 sub mid vsize sub
+			x hsize1 sub mid vsize sub curveto
+
+			x hsize1 add mid vsize sub lineto
+
+			x hsize2 add mid vsize sub
+			x hsize2 add mid vsize sub
+			x hsize2 add mid vsize add curveto
+		stroke
+	end
+} bind def
+
+/cap {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 dot
+		x y2 dot
+		/mid y1 y2 add 2 div def
+		/hsize 0.35 def
+		/vsize 0.08 def
+		newpath
+			x y1 moveto x mid vsize sub lineto
+			x y2 moveto x mid vsize add lineto
+
+			x hsize sub mid vsize add moveto
+			x hsize add mid vsize add lineto
+			x hsize sub mid vsize sub moveto
+			x hsize add mid vsize sub lineto
+		stroke
+	end
+} bind def
+
+/diode {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 dot
+		x y2 dot
+		/hsize 0.22 def
+		/vsize -0.18 def
+		/bar y1 y2 add 2 div vsize sub def
+		/top y1 y2 add 2 div vsize add def
+		0.05 setlinewidth newpath
+			x y1 moveto x y2 lineto
+			x hsize sub bar moveto x hsize add bar lineto
+		stroke
+		1 setgray
+		newpath
+			x bar moveto x hsize sub top lineto x hsize add top lineto
+		fill
+		0 setgray
+		newpath
+			x bar moveto x hsize sub top lineto x hsize add top lineto x bar lineto
+		stroke
+	end
+} bind def
+
+/led {
+	10 dict begin
+		/y2 rdef
+		/y1 rdef
+		/x rdef
+		x y1 y2 diode
+		/y y1 y2 add 2 div def
+		0.02 setlinewidth newpath
+			x .35 sub y .05 add moveto
+			-.15 -.15 rlineto 0 .1 rlineto 0 -.1 rmoveto .1 0 rlineto
+			x .27 sub y .07 sub moveto
+			-.15 -.15 rlineto 0 .1 rlineto 0 -.1 rmoveto .1 0 rlineto
+		stroke
+	end
+} bind def
+
+/sil {
+	10 dict begin
+		/size rdef
+		/y rdef
+		/x rdef
+		0 1 size 1 sub {
+			x exch y add dot
+		} for
+		x 0.3 sub y 0.4 sub x 0.3 add y size add 1 sub 0.4 add box
+	end
+} bind def
+
+/text {
+	10 dict begin
+		/txt rdef
+		/y rdef
+		/x rdef
+		x 0.1 add y 0.25 sub moveto txt show
+	end
+} bind def
+
+/rtext {
+	10 dict begin
+		/txt rdef
+		/y rdef
+		/x rdef
+		x 0.1 add y 0.25 sub moveto txt stringwidth pop neg 0 rmoveto txt show
+	end
+} bind def
+
+/vtext {
+	10 dict begin
+		/txt rdef
+		/y rdef
+		/x rdef
+		gsave
+			x 0.1 add y 0.25 sub translate
+			270 rotate
+			txt stringwidth pop /w rdef
+			/h 0.6 def
+			1 setgray
+			newpath
+				0 0 moveto w 0 lineto w h lineto 0 h lineto
+			fill
+			0 setgray
+			0 0 moveto txt show
+		grestore
+	end
+} bind def
+
+/pnp_vl_cbe {
+	10 dict begin
+		/y rdef
+		/x rdef
+		x y dot
+		x y 1 add dot
+		x y 2 add dot
+		0.08 setlinewidth newpath
+			x 0.2 sub y 0.6 add moveto
+			x 0.2 sub y 1.4 add lineto
+		stroke
+		0.05 setlinewidth newpath
+			x 0.2 sub y 1.1 add moveto
+			-0.5 0.2
+			-0.5 0.8
+			0.2 0.9 rcurveto
+		stroke
+		newpath
+			x 0.2 sub y 0.9 add moveto
+			-0.5 -0.2
+			-0.5 -0.8
+			0.2 -0.9 rcurveto
+		stroke
+		newpath
+			x 0.35 sub y 1.4 add moveto
+			0.15 -0.3 rlineto
+			-0.3 0 rlineto
+		stroke
+	end
+} bind def
+
+/dil_up {
+	10 dict begin
+		/h rdef
+		/w rdef
+		/y rdef
+		/x rdef
+		0 1 h 1 sub {
+			/i rdef
+			x y i add dot
+			x w add 1 sub y i add dot
+		} for
+		0.05 setlinewidth newpath
+			x 0.3 sub y h add 1 sub 0.4 add moveto
+			x 0.3 sub y 0.3 sub lineto
+			x w add 1 sub 0.3 add y 0.3 sub lineto
+			x w add 1 sub 0.3 add y h add 1 sub 0.4 add lineto
+
+			x w add 2.2 sub y h add 1 sub 0.4 add lineto
+			x w add 2.4 sub y h add 0.8 sub
+			x 1.4 add y h add 0.8 sub
+			x 1.2 add y h add 1 sub 0.4 add curveto
+			x 0.3 sub y h add 1 sub 0.4 add lineto
+		stroke
+	end
+} bind def
+
+/trimpot5 {
+	10 dict begin
+		/y rdef
+		/x rdef
+		x y dot
+		x y 2 add dot
+		x 4 add y 1 add dot
+		x 0.4 sub y 0.4 sub x 4 add 0.4 add y 2 add 0.4 add box
+	end
+} bind def
+
+/trimpot3 {
+	10 dict begin
+		/y rdef
+		/x rdef
+		x y dot
+		x y 2 add dot
+		x 2 add y 1 add dot
+		x 0.4 sub y 0.4 sub x 2 add 0.4 add y 2 add 0.4 add box
+	end
+} bind def
+
+stuff
+
+/horizlines {
+	0 1 height 1 sub {
+		/y rdef
+		newpath
+			/drawing false def
+			0 1 width 1 sub {
+				/x rdef
+				rows y get x get {
+					x y
+					drawing {
+						lineto
+					} {
+						moveto
+					} ifelse
+					/drawing true def
+				} if
+				cutright y get x get {
+					/drawing false def
+				} if
+			} for
+		stroke
+	} for
+} bind def
+1 setlinecap 0.85 setlinewidth 0.90 setgray horizlines
+0 setlinecap 0.05 setlinewidth 0 setgray %horizlines
+
+0 1 height 1 sub {
+	/y rdef
+	0 1 width 1 sub {
+		/x rdef
+		rows y get x get {
+			newpath x y 0.1 0 360 arc fill
+		} if
+	} for
+} for
+
+/cutsize 0.15 def
+0 1 height 1 sub {
+	/y rdef
+	0 1 width 1 sub {
+		/x rdef
+		cutright y get x get {
+			/x x 0.5 add def
+			0.05 setlinewidth newpath
+				x cutsize sub y cutsize sub moveto
+				x y lineto
+				x cutsize add y cutsize sub lineto
+				x cutsize sub y cutsize add moveto
+				x y lineto
+				x cutsize add y cutsize add lineto
+			stroke
+		} if
+	} for
+} for
+
+
+stuff
+
+showpage

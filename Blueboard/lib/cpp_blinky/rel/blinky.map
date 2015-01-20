@@ -1,0 +1,534 @@
+Archive member included because of file (symbol)
+
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o (atexit)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o (exit)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o (__libc_init_array)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o (memset)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o) (_exit)
+c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o) (__syscalls)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+ .text          0x00000000      0x104 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .data          0x00000000        0x0 rel/startup.o
+ .bss           0x00000000        0x0 rel/startup.o
+ .text          0x00000000        0x0 rel/arm_exc.o
+ .data          0x00000000        0x0 rel/arm_exc.o
+ .bss           0x00000000        0x0 rel/arm_exc.o
+ .text          0x00000000        0x0 rel/low_level_init.o
+ .data          0x00000000        0x0 rel/low_level_init.o
+ .bss           0x00000000        0x0 rel/low_level_init.o
+ .text          0x00000000        0x0 rel/isr.o
+ .data          0x00000000        0x0 rel/isr.o
+ .text._Z12eventFlagSeth
+                0x00000000       0x28 rel/isr.o
+ .text          0x00000000        0x0 rel/bsp.o
+ .data          0x00000000        0x0 rel/bsp.o
+ .bss           0x00000000        0x0 rel/bsp.o
+ .text          0x00000000        0x0 rel/blinky.o
+ .data          0x00000000        0x0 rel/blinky.o
+ .text._ZN6BlinkyC2Ehjj
+                0x00000000       0x30 rel/blinky.o
+ .text._ZN6BlinkyC1Ehjj
+                0x00000000       0x30 rel/blinky.o
+ .text._ZN6BlinkyD2Ev
+                0x00000000        0xc rel/blinky.o
+ .text          0x00000000        0x0 rel/mini_cpp.o
+ .data          0x00000000        0x0 rel/mini_cpp.o
+ .bss           0x00000000        0x0 rel/mini_cpp.o
+ .text._Znwj    0x00000000       0x18 rel/mini_cpp.o
+ .text          0x00000000        0x0 rel/no_heap.o
+ .data          0x00000000        0x0 rel/no_heap.o
+ .bss           0x00000000        0x0 rel/no_heap.o
+ .text.malloc   0x00000000        0x4 rel/no_heap.o
+ .text          0x00000000       0x38 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+ .text          0x00000000       0x5c c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000      0x430 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x8 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+ .text          0x00000000      0x224 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+ .text          0x00000000      0x174 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+ .text          0x00000000      0x1fc c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000       0x1c c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+ .text          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+ .bss           0x00000000        0x8 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+ .text          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .eh_frame      0x00000000        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .jcr           0x00000000        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .text          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+ .data          0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+ .bss           0x00000000        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x00100000         0x00010000         xr
+RAM              0x00200000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+LOAD rel/startup.o
+LOAD rel/arm_exc.o
+LOAD rel/low_level_init.o
+LOAD rel/isr.o
+LOAD rel/bsp.o
+LOAD rel/blinky.o
+LOAD rel/mini_cpp.o
+LOAD rel/no_heap.o
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libstdc++.a
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libm.a
+START GROUP
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3\libgcc.a
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a
+END GROUP
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+LOAD c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+                0x00000200                C_STACK_SIZE = 0x200
+                0x00000000                IRQ_STACK_SIZE = 0x0
+                0x00000000                FIQ_STACK_SIZE = 0x0
+                0x00000000                SVC_STACK_SIZE = 0x0
+                0x00000000                ABT_STACK_SIZE = 0x0
+                0x00000000                UND_STACK_SIZE = 0x0
+                0x00000000                HEAP_SIZE = 0x0
+
+.reset          0x00100000      0x180
+ *startup.o(.text)
+ .text          0x00100000      0x180 rel/startup.o
+                0x00100000                _vectors
+                0x00100180                . = ALIGN (0x4)
+
+.ramvect        0x00200000       0x40
+                0x00200000                __ram_start = .
+                0x00200040                . = 0x40
+ *fill*         0x00200000       0x40 00
+
+.fastcode       0x00200040      0x300 load address 0x00100180
+                0x00100180                __fastcode_load = LOADADDR (.fastcode)
+                0x00200040                __fastcode_start = .
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *isr.o(.text.*)
+ .text._Z14eventFlagCheckh
+                0x00200040       0x3c rel/isr.o
+                0x00200040                eventFlagCheck(unsigned char)
+ .text._Z7ISR_pitv
+                0x0020007c       0x3c rel/isr.o
+                0x0020007c                ISR_pit()
+ .text._Z10ISR_timer0v
+                0x002000b8       0x40 rel/isr.o
+                0x002000b8                ISR_timer0()
+ .text._Z8ISR_spurv
+                0x002000f8        0x4 rel/isr.o
+                0x002000f8                ISR_spur()
+ .text.fastcode
+                0x002000fc       0x6c rel/isr.o
+                0x002000fc                BSP_irq
+                0x00200128                BSP_fiq
+ *(.text.fastcode)
+ .text.fastcode
+                0x00200168      0x180 rel/arm_exc.o
+                0x00200168                ARM_int_lock_SYS
+                0x00200174                ARM_int_unlock_SYS
+                0x0020017c                ARM_irq
+                0x002001e4                ARM_fiq
+                0x00200248                ARM_reset
+                0x00200250                ARM_undef
+                0x00200258                ARM_swi
+                0x00200260                ARM_pAbort
+                0x00200268                ARM_dAbort
+                0x00200270                ARM_reserved
+                0x00200278                ARM_except
+ *(.text._ZN6Blinky8dispatchEv)
+ .text._ZN6Blinky8dispatchEv
+                0x002002e8       0x58 rel/blinky.o
+                0x002002e8                Blinky::dispatch()
+                0x00200340                . = ALIGN (0x4)
+                0x00200340                __fastcode_end = .
+
+.text           0x00100480      0x670
+                0x00100480                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00100480       0x94 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+ .text          0x00100514      0x140 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+                0x00100514                __libc_init_array
+                0x001005e0                __libc_fini_array
+ *(.text*)
+ .text.low_level_init
+                0x00100654      0x12c rel/low_level_init.o
+                0x00100654                low_level_init
+ .text.BSP_abort
+                0x00100780        0x4 rel/bsp.o
+                0x00100780                BSP_abort
+ .text._Z8BSP_initv
+                0x00100784      0x16c rel/bsp.o
+                0x00100784                BSP_init()
+ .text._ZN6BlinkyD1Ev
+                0x001008f0        0xc rel/blinky.o
+                0x001008f0                Blinky::~Blinky()
+ .text.main     0x001008fc       0x6c rel/blinky.o
+                0x001008fc                main
+ .text._ZN6BlinkyD0Ev
+                0x00100968       0x24 rel/blinky.o
+                0x00100968                Blinky::~Blinky()
+ .text._GLOBAL__I__ZN6BlinkyC2Ehjj
+                0x0010098c       0xe8 rel/blinky.o
+ .text.__aeabi_atexit
+                0x00100a74        0x4 rel/mini_cpp.o
+                0x00100a74                __aeabi_atexit
+ .text._ZdlPv   0x00100a78       0x18 rel/mini_cpp.o
+                0x00100a78                operator delete(void*)
+ .text.free     0x00100a90        0x4 rel/no_heap.o
+                0x00100a90                free
+ *(.rodata)
+ .rodata        0x00100a94       0x10 rel/bsp.o
+                0x00100a94                BSP_led
+ *fill*         0x00100aa4        0x4 00
+ .rodata        0x00100aa8       0x18 rel/blinky.o
+                0x00100aa8                vtable for Blinky
+ *(.rodata*)
+ *(.glue_7)
+ *(.glue_7t)
+ *(.init)
+ .init          0x00100ac0        0xc c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+                0x00100ac0                _init
+ .init          0x00100acc        0xc c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+ *(.fini)
+ .fini          0x00100ad8        0xc c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+                0x00100ad8                _fini
+ .fini          0x00100ae4        0xc c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+                0x00100af0                . = ALIGN (0x4)
+                0x00100af0                _etext = .
+
+.eh_frame       0x00100af0        0x0
+ .eh_frame      0x00100af0        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+
+.vfp11_veneer   0x00100af0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00100af0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.preinit_array  0x00100af0        0x0
+                0x00100af0                PROVIDE (__preinit_array_start, .)
+ *(SORT(.preinit_array.*))
+ *(.preinit_array*)
+                0x00100af0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00100af0        0x8
+                0x00100af0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00100af0        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+ .init_array    0x00100af4        0x4 rel/blinky.o
+                0x00100af8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00100af8        0x4
+                0x00100af8                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ .fini_array    0x00100af8        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00100afc                PROVIDE (__fini_array_end, .)
+
+.data           0x00200340        0x4 load address 0x00100afc
+                0x00100afc                __data_load = LOADADDR (.data)
+                0x00200340                __data_start = .
+ *(.data)
+ .data          0x00200340        0x4 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+                0x00200340                __dso_handle
+ *(.data*)
+                0x00200344                . = ALIGN (0x4)
+                0x00200344                _edata = .
+
+.jcr            0x00200344        0x0
+ .jcr           0x00200344        0x0 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+
+.bss            0x00200344       0x70 load address 0x00100b00
+                0x00200344                __bss_start__ = .
+ *(.bss)
+ .bss           0x00200344       0x1c c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+ .bss           0x00200360        0x4 rel/isr.o
+ .bss           0x00200364       0x50 rel/blinky.o
+ *(.bss*)
+ *(COMMON)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                _ebss = .
+                0x002003b4                __bss_end__ = .
+                0x002003b4                PROVIDE (end, _ebss)
+                0x002003b4                PROVIDE (_end, _ebss)
+                0x002003b4                PROVIDE (__end__, _ebss)
+
+.heap           0x002003b4        0x0 load address 0x00100b00
+                0x002003b4                __heap_start__ = .
+                0x002003b4                . = (. + HEAP_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __heap_end__ = .
+
+.stack          0x002003b4      0x200 load address 0x00100b00
+                0x002003b4                __stack_start__ = .
+                0x002003b4                . = (. + IRQ_STACK_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __irq_stack_top__ = .
+                0x002003b4                . = (. + FIQ_STACK_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __fiq_stack_top__ = .
+                0x002003b4                . = (. + SVC_STACK_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __svc_stack_top__ = .
+                0x002003b4                . = (. + ABT_STACK_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __abt_stack_top__ = .
+                0x002003b4                . = (. + UND_STACK_SIZE)
+                0x002003b4                . = ALIGN (0x4)
+                0x002003b4                __und_stack_top__ = .
+                0x002005b4                . = (. + C_STACK_SIZE)
+ *fill*         0x002003b4      0x200 00
+                0x002005b4                . = ALIGN (0x4)
+                0x002005b4                __c_stack_top__ = .
+                0x002005b4                __stack_end__ = .
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+OUTPUT(rel\blinky.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x20 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+ .ARM.attributes
+                0x00000020       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+ .ARM.attributes
+                0x00000050       0x20 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+ .ARM.attributes
+                0x00000070       0x20 rel/startup.o
+ .ARM.attributes
+                0x00000090       0x20 rel/arm_exc.o
+ .ARM.attributes
+                0x000000b0       0x30 rel/low_level_init.o
+ .ARM.attributes
+                0x000000e0       0x30 rel/isr.o
+ .ARM.attributes
+                0x00000110       0x30 rel/bsp.o
+ .ARM.attributes
+                0x00000140       0x30 rel/blinky.o
+ .ARM.attributes
+                0x00000170       0x30 rel/mini_cpp.o
+ .ARM.attributes
+                0x000001a0       0x30 rel/no_heap.o
+ .ARM.attributes
+                0x000001d0       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000200       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000230       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000260       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000290       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000002c0       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000002f0       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000320       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+ .ARM.attributes
+                0x00000350       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+ .ARM.attributes
+                0x00000380       0x30 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+ .ARM.attributes
+                0x000003b0       0x20 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
+
+.comment        0x00000000       0x22
+ .comment       0x00000000       0x22 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 rel/low_level_init.o
+ .comment       0x00000000       0x23 rel/isr.o
+ .comment       0x00000000       0x23 rel/bsp.o
+ .comment       0x00000000       0x23 rel/blinky.o
+ .comment       0x00000000       0x23 rel/mini_cpp.o
+ .comment       0x00000000       0x23 rel/no_heap.o
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+ .comment       0x00000000       0x23 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
+
+Cross Reference Table
+
+Symbol                                            File
+ARM_dAbort                                        rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_except                                        rel/arm_exc.o
+ARM_fiq                                           rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_int_lock_SYS                                  rel/arm_exc.o
+ARM_int_unlock_SYS                                rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_irq                                           rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_pAbort                                        rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_reserved                                      rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_reset                                         rel/arm_exc.o
+ARM_swi                                           rel/arm_exc.o
+                                                  rel/bsp.o
+ARM_undef                                         rel/arm_exc.o
+                                                  rel/bsp.o
+BSP_abort                                         rel/bsp.o
+                                                  rel/arm_exc.o
+BSP_fiq                                           rel/isr.o
+                                                  rel/arm_exc.o
+BSP_init()                                        rel/bsp.o
+                                                  rel/blinky.o
+BSP_irq                                           rel/isr.o
+                                                  rel/arm_exc.o
+BSP_led                                           rel/bsp.o
+                                                  rel/blinky.o
+Blinky::Blinky(unsigned char, unsigned int, unsigned int) rel/blinky.o
+Blinky::Blinky(unsigned char, unsigned int, unsigned int) rel/blinky.o
+Blinky::dispatch()                                rel/blinky.o
+Blinky::~Blinky()                                 rel/blinky.o
+Blinky::~Blinky()                                 rel/blinky.o
+Blinky::~Blinky()                                 rel/blinky.o
+ISR_pit()                                         rel/isr.o
+                                                  rel/bsp.o
+ISR_spur()                                        rel/isr.o
+                                                  rel/bsp.o
+ISR_timer0()                                      rel/isr.o
+                                                  rel/bsp.o
+_Jv_RegisterClasses                               c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+__abt_stack_top__                                 rel/startup.o
+__aeabi_atexit                                    rel/mini_cpp.o
+                                                  rel/blinky.o
+__bss_end__                                       rel/startup.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+__bss_start__                                     rel/startup.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+__c_stack_top__                                   rel/startup.o
+__call_exitprocs                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+__data_load                                       rel/startup.o
+__data_start                                      rel/startup.o
+__deregister_frame_info                           c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+__dso_handle                                      c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+                                                  rel/blinky.o
+__fastcode_end                                    rel/startup.o
+__fastcode_load                                   rel/startup.o
+__fastcode_start                                  rel/startup.o
+__fini_array_end                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__fini_array_start                                c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__fiq_stack_top__                                 rel/startup.o
+__init_array_end                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__init_array_start                                c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__irq_stack_top__                                 rel/startup.o
+__libc_fini_array                                 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+__libc_init_array                                 c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+                                                  rel/startup.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+__preinit_array_end                               c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__preinit_array_start                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+__ram_start                                       rel/low_level_init.o
+__register_exitproc                               c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+__register_frame_info                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtbegin.o
+__stack                                           c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+__stack_end__                                     rel/startup.o
+__stack_start__                                   rel/startup.o
+__svc_stack_top__                                 rel/startup.o
+__syscalls                                        c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(syscall_support.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+__und_stack_top__                                 rel/startup.o
+_edata                                            rel/startup.o
+_exit                                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libsysbase.a(_exit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+_fini                                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+_global_impure_ptr                                c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+_impure_ptr                                       c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-impure.o)
+_init                                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crti.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-init.o)
+_mainCRTStartup                                   c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+_start                                            c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+_vectors                                          rel/startup.o
+atexit                                            c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-atexit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+eventFlagCheck(unsigned char)                     rel/isr.o
+                                                  rel/blinky.o
+eventFlagSet(unsigned char)                       rel/isr.o
+exit                                              c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-exit.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+free                                              rel/no_heap.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  rel/mini_cpp.o
+hardware_init_hook                                c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+low_level_init                                    rel/low_level_init.o
+                                                  rel/startup.o
+main                                              rel/blinky.o
+                                                  rel/startup.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+malloc                                            rel/no_heap.o
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  rel/mini_cpp.o
+memset                                            c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib\libc.a(lib_a-memset.o)
+                                                  c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+operator delete(void*)                            rel/mini_cpp.o
+                                                  rel/blinky.o
+operator new(unsigned int)                        rel/mini_cpp.o
+software_init_hook                                c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+start                                             c:/tools/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/crt0.o
+vtable for Blinky                                 rel/blinky.o

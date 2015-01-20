@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="438" key="DIALOG_WIDTH"/>
+		<item value="399" key="DIALOG_Y_ORIGIN"/>
+		<item value="539" key="DIALOG_X_ORIGIN"/>
+		<item value="559" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="411" key="DIALOG_WIDTH"/>
+		<item value="305" key="DIALOG_Y_ORIGIN"/>
+		<item value="594" key="DIALOG_X_ORIGIN"/>
+		<item value="361" key="DIALOG_HEIGHT"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>
